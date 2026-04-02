@@ -6,6 +6,7 @@ import { clearCart, removeFromCart, updateCartItemQuantity } from '../redux/acti
 import type { CartItem } from '../redux/reducers';
 
 const Cart = ({ route }: { route: any }) => {
+    
 
     const cartItems = useSelector((state: any) => state.cart as CartItem[]);
 
