@@ -6,23 +6,19 @@ import { addToCart } from '../redux/action'
 import type { CartItem, Product } from '../redux/reducers'
 
 const products: Product[] = [
-  { id: 1, name: 'Product 1', price: 100 },
-  { id: 2, name: 'Product 2', price: 200 },
-  { id: 3, name: 'Product 3', price: 300 },
-  { id: 4, name: 'Product 4', price: 400 },
-  { id: 5, name: 'Product 5', price: 500 },
-  { id: 6, name: 'Product 6', price: 600 },
-  { id: 7, name: 'Product 7', price: 700 },
-  { id: 8, name: 'Product 8', price: 800 },
-  { id: 9, name: 'Product 9', price: 900 },
-  { id: 10, name: 'Product 10', price: 1000 },
-  { id: 11, name: 'Product 11', price: 1100 },
-  { id: 12, name: 'Product 12', price: 1200 },
-  { id: 13, name: 'Product 13', price: 1300 },
-  { id: 14, name: 'Product 14', price: 1400 },
-  { id: 15, name: 'Product 15', price: 1500 },
-  { id: 16, name: 'Product 16', price: 1600 },
-  { id: 17, name: 'Product 17', price: 1700 },
+  { id: 1, name: 'Laptop', price: 100 },
+  { id: 2, name: 'Phone', price: 200 },
+  { id: 3, name: 'Tablet', price: 300 },
+  { id: 4, name: 'Headphones', price: 400 },
+  { id: 5, name: 'Keyboard', price: 500 },
+  { id: 6, name: 'Mouse', price: 600 },
+  { id: 7, name: 'Speaker', price: 700 },
+  { id: 8, name: 'Monitor', price: 800 },
+  { id: 9, name: 'Printer', price: 900 },
+  { id: 10, name: 'Scanner', price: 1000 },
+  { id: 11, name: 'Projector', price: 1100 },
+  { id: 12, name: 'UPS', price: 1200 },
+  { id: 13, name: 'Router', price: 1300 },
 ]
 
 const ProductList = ({ navigation }: { navigation: any }) => {
